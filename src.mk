@@ -185,6 +185,7 @@ LIB_SOURCES =                                                   \
   utilities/date_tiered/date_tiered_db_impl.cc                  \
   utilities/write_batch_with_index/write_batch_with_index.cc    \
   utilities/write_batch_with_index/write_batch_with_index_internal.cc    \
+  utilities/env_librados.cc                                     \
 
 TOOL_LIB_SOURCES = \
   tools/ldb_cmd.cc                                               \
